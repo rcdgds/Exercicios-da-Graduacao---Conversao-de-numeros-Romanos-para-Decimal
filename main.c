@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+// estrutura de dados 
 typedef struct
 {
     int valor_arabico;
@@ -64,7 +65,7 @@ int Conver_Romano_Decimal(const char *c) {
     return total;
 }
 
-// funcao de validacao
+// funcao de validacao - verifica se o algarismo é um algarismo romano valido
 int Algarismo_Valido(const char *c)
 {
     switch (*c)
@@ -82,6 +83,7 @@ int Algarismo_Valido(const char *c)
     }
 }
 
+// funcao de validacao - em caso de nao passar na primeira validacao, a funcao diz onde o algarismo errado esta na string
 int Validar_String(const char *c) {
     if (strlen(c) == 0) return 0;
 
@@ -93,6 +95,7 @@ int Validar_String(const char *c) {
     }
     return 1;
 }
+
 
 void Verifica_Input(const char *romano) {
 
