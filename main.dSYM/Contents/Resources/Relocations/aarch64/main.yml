@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ricardogomesdossantos/Library/Mobile Documents/com~apple~CloudDocs/Engenharia da Computacao/Ano 1 - Segundo Semestre/Lab de Programacao/Conv_Rom_Dec/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Obter_Valor, symObjAddr: 0x0, symBinAddr: 0x100003AF4, symSize: 0x94 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _tabela, symObjAddr: 0x470, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0xA7, size: 0x8, addend: 0x0, symName: _Tamanho_Tabela, symObjAddr: 0x4E0, symBinAddr: 0x100003F94, symSize: 0x0 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _Obter_Valor, symObjAddr: 0x0, symBinAddr: 0x100003AF4, symSize: 0x94 }
+  - { offsetInCU: 0xF9, offset: 0xF9, size: 0x8, addend: 0x0, symName: _Conver_Romano_Decimal, symObjAddr: 0x94, symBinAddr: 0x100003B88, symSize: 0x11C }
+  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _Algarismo_Valido, symObjAddr: 0x1B0, symBinAddr: 0x100003CA4, symSize: 0x9C }
+  - { offsetInCU: 0x1B9, offset: 0x1B9, size: 0x8, addend: 0x0, symName: _Validar_String, symObjAddr: 0x24C, symBinAddr: 0x100003D40, symSize: 0xE8 }
+  - { offsetInCU: 0x1FD, offset: 0x1FD, size: 0x8, addend: 0x0, symName: _Verifica_Input, symObjAddr: 0x334, symBinAddr: 0x100003E28, symSize: 0x48 }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x37C, symBinAddr: 0x100003E70, symSize: 0x80 }
+...
